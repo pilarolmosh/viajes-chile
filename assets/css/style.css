@@ -1,3 +1,4 @@
+/* Body */
 body{
     font-family: 'Open Sans', sans-serif;
     background: #000;
@@ -6,32 +7,31 @@ body{
 a{
     color: #fff;
 }
-
 p{
     text-align: start;
 }
 
+/* Quiénes somos */
 #Quienes-somos h3{
     background: #0dcaf0;
 }
 
+/* Destacados */
 .card{
     background: #0dcaf0;
     height: 25rem;
 }
-
 .card .card-img-top{
     height: 12rem;
 }
-
 .btn-text-color{
     color: #fff;
 }
 
+/* Footer */
 .footer-bg{
     background: #0dcaf0;;
 }
-
 .iconos{
     font-size: larger;
 }

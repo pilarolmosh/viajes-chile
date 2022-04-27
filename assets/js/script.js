@@ -14,4 +14,10 @@ $(document).ready(function(){
         }
     });
 });
-    
+
+//Mensaje de envío del formulario
+$(function(){
+    $('#enviarMensaje').click(function(){
+        alert("El mensaje fue enviado correctamente");
+    });
+});
