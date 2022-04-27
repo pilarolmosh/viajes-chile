@@ -3,6 +3,9 @@ body{
     background: #000;
     color: #fff;
 }
+a{
+    color: #fff;
+}
 
 p{
     text-align: start;
@@ -14,6 +17,7 @@ p{
 
 .card{
     background: #0dcaf0;
+    height: 25rem;
 }
 
 .card .card-img-top{
@@ -26,5 +30,7 @@ p{
 .footer-bg{
     background: #0dcaf0;;
 }
+
+
 
 
