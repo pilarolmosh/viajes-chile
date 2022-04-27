@@ -23,12 +23,27 @@ p{
 .card .card-img-top{
     height: 12rem;
 }
-.btn-color{
-    background: #0dcaf0;
+
+.btn-text-color{
+    color: #fff;
 }
 
 .footer-bg{
     background: #0dcaf0;;
+}
+
+.iconos{
+    font-size: larger;
+}
+
+@media (max-width: 320px) {
+    .footer-text{
+        font-size: smaller;
+    }
+
+    .iconos{
+        font-size: large;
+    }
 }
 
 

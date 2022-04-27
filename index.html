@@ -74,7 +74,7 @@
 
 
   <!-- Quiénes somos -->
-  <section id="Quienes-somos" class="container">      
+  <section id="Quienes-somos" class="container d-none d-md-block">      
     <div class="row text-center my-5 pb-3">
       <h2 class="pb-4">¿QUIÉNES SOMOS?</h2><hr>
       <div class="col-12 col-md-4"><h3><i class="fa-solid fa-plane"></i></h3>
@@ -154,9 +154,8 @@
                     <input type="email" class="form-control">
                 </div>
                   <label for="">Mensaje</label><br>
-                  <!--name="" id="" cols="30" rows="10"-->
-                  <textarea cols="153" rows="4" ></textarea>
-                  <button type="submit" class="btn btn-color px-4">Enviar</button>
+                  <textarea class="form-control"></textarea><br>
+                  <button type="submit" class="btn btn-info btn-sm btn-text-color px-4">Enviar</button>
             </form>
         </div>
     </div>  
@@ -166,25 +165,25 @@
   <footer>
     <div class="container-fluid footer-bg">
       <div class="container text-center py-3">
-        <div class="row">
-          <div class="col-6">
+        <div class="row fs-4">
+          <div class="col-6 footer-text">
             <p>VIAJES CHILE</p>
           </div>           
-          <div class="col-6">
-            <a href="#"><i class="fab fa-github-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>             
+          <div class="col-6 iconos">
+            <a href="#"><i class="fab fa-github-square mx-1"></i></a>
+            <a href="#"><i class="fab fa-linkedin mx-1"></i></a>
+            <a href="#"><i class="fab fa-twitter-square mx-1"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-square mx-1"></i></a>             
           </div>          
         </div>        
       </div>            
     </div>
   </footer>
 
-
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>
